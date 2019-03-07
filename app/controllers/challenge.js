@@ -3,6 +3,7 @@ import Controller from '@ember/controller';
 export default Controller.extend({
   challenges: null,
   init() {
+    this._super(...arguments);
     let challenges = [{
         name: '100 days of code',
         description: 'Code for at least half an hour, every day, for 100 days.',
@@ -23,9 +24,7 @@ export default Controller.extend({
   },
   actions: {
     newChallenge() {
-      console.log(this.get('challenges'))
       let challenge = this.get('challenges').shift();
-      console.log(this.get('challenges'))
       var newChallenge = this.store.createRecord('challenge', {
         name: challenge.name,
         description: challenge.description,
