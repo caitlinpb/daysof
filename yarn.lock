@@ -3747,6 +3747,14 @@ ember-auto-import@^1.2.19:
     walk-sync "^0.3.3"
     webpack "~4.28"
 
+ember-changeset@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ember-changeset/-/ember-changeset-2.0.0.tgz#66f5b9d6cec630f2490998affd40550087287459"
+  integrity sha512-hjcyZRjfqqxT5Jz845ia8ZUZhqFCQ5zVl2TsDAjcDVSIsgd27p79k6STHx0H62IJog1M8kvux25P9/kd+84MMg==
+  dependencies:
+    ember-cli-babel "^6.16.0"
+    ember-deep-set "^0.2.0"
+
 ember-cli-app-version@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ember-cli-app-version/-/ember-cli-app-version-3.2.0.tgz#7b9ad0e1b63ae0518648356ee24c703e922bc26e"
@@ -4141,6 +4149,13 @@ ember-data@~3.8.0:
     resolve "^1.8.1"
     semver "^5.6.0"
     silent-error "^1.1.1"
+
+ember-deep-set@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/ember-deep-set/-/ember-deep-set-0.2.0.tgz#93428b599f884c3da0550cbcc062b9ec5969a71e"
+  integrity sha512-3vg9Cw4CIInXzufZMQmScClg23mUw+2ybO53L51spFYP/eGaVmGduWmhrVljyl4lHKN7hW/jvG/YVWtwTPSTKA==
+  dependencies:
+    ember-cli-babel "^7.1.2"
 
 ember-export-application-global@^2.0.0:
   version "2.0.0"
